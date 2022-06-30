@@ -22,7 +22,7 @@
         android:ems="10"
         android:hint="Item to Add"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonSubmit"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
         app:layout_constraintEnd_toStartOf="@+id/buttonSubmit"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
